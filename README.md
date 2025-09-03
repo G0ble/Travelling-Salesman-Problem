@@ -1,6 +1,6 @@
-## Statistical Mechanics Inspiration for Simulated Annealing
+## Solving the Travelling Salesman Problem using Simulated Annealing
 
-Simulated Annealing (SA) is inspired by Statistical Mechanics.  In equilibrium at temperature **T**, the probability of a system being in state *i* with energy *E_i* is given by the **Boltzmann distribution**:
+Simulated Annealing is a process inspired by Statistical Mechanics, proposed in 1985 by Skott Kirkpatrick. Given a system in equilibrium at temperature **T**, the probability of finding it in a state *i* with energy *E_i* is given by the **Boltzmann distribution**:
 
 ```math
 P(E_i) = \frac{e^{-\beta E_i}}{Z}, \quad Z = \sum_i e^{-\beta E_i}, \quad \beta = \frac{1}{k_B T}
